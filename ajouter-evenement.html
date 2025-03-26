@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>EventEarth - Ajouter un évènement</title>
+</head>
+<body>
+  <!-- Entête commun -->
+  <header>
+    <img src="images/logo.png" alt="EventEarth Logo">
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="evenements.html">Les évènements</a></li>
+        <li><a href="contact.html">Nous contacter</a></li>
+      </ul>
+    </nav>
+  </header><br><br><br>
+
+  <hr>
+  
+  <!-- Contenu principal -->
+  <main>
+    <h1>Ajouter un évènement</h1>
+    <form action="#" method="post" enctype="multipart/form-data">
+      <label for="titre">Titre de l'évènement :</label>
+      <input type="text" id="titre" name="titre" required>
+      
+      <label for="description">Description de l'évènement :</label>
+      <textarea id="description" name="description" required></textarea>
+      
+      <label for="photo">Photo de l'évènement :</label>
+      <input type="file" id="photo" name="photo" accept="image/*" required>
+      
+      <label for="prix">Prix de l'évènement :</label>
+      <input type="text" id="prix" name="prix" required>
+      
+      <button type="submit">Créer l'évènement</button>
+    </form>
+  </main><br><br><br>
+
+    <hr>
+  
+  <!-- Pied de page -->
+  <footer>
+    <ul>
+      <li><a href="mentions-legales.html">Mentions légales</a></li>
+      <li><a href="conditions.html">Conditions générales d'utilisation</a></li>
+    </ul>
+  </footer>
+</body>
+</html>
